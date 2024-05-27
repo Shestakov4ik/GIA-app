@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="diamond">#89CFF3</color>
+    <color name="falsee">#FF6578</color>
+    <color name="truee">#34C759</color>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/task_linear"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/border_bg"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_marginTop="51dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13.5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"/>
+
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="16dp"
+            android:hint="Ответ"
+            android:backgroundTint="@color/diamond"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/otvet"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border_bg_full"
+            android:text="Ответить"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="45dp"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/otvet_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Решение:"/>
+
+        <TextView
+            android:id="@+id/right_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text=""
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
